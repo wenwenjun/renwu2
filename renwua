@@ -48,7 +48,17 @@ span.za{color:gray;
 }
 .txt{text-align:center;
 }
-
+.submit{
+	display:block;
+	background:#3355d0;
+	width:1200px;
+	height:35px;
+	border-radius:5px;
+	margin:0 auto;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#fff;
+}
 </style>
 </head>
 
@@ -141,9 +151,9 @@ span.za{color:gray;
 <p>下面是一个表格，我这里给表格加一个border="1"好看出是一个表格。
 <table border="1"  cellspacing="0" width="1100px">
 <tr bgcolor="black">
-	<th bordercolor="LightGrey"><span class="blank">表头</span></th>
-	<th bordercolor="LightGrey"><span class="blank">表头</span></th>
-	<th bordercolor="LightGrey"><span class="blank">表头</span></th>
+	<td bordercolor="LightGrey"><span class="blank">表头</span></th>
+	<td bordercolor="LightGrey"><span class="blank">表头</span></th>
+	<td bordercolor="LightGrey"><span class="blank">表头</span></th>
 </tr>
 <tr>
 	<td bordercolor="LightGrey">表内容单元格</td>
@@ -166,8 +176,8 @@ span.za{color:gray;
 	<td bordercolor="LightGrey"><a href="#">操作</a></td>
 </tr>
 <tr bgcolor="LightGrey">
-	<span class="gray"><th bordercolor="LightGrey">总计</th>
-	<th colspan="2" bordercolor="LightGrey">1000</th></span>
+	<span class="gray"><td bordercolor="LightGrey">总计</th>
+	<td colspan="2" bordercolor="LightGrey">1000</th></span>
 </tr>
 </table>
 </div>
@@ -177,32 +187,32 @@ span.za{color:gray;
 <br/>
 <div class="txt">
 	<form action="">
-	<p>请输入邮箱地址&nbsp;<input type="text" value="这是一个输入文本框"></p>
-	  <p><span class="zi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱地址请按要求格式输入</span></p>
+	<p>&nbsp;&nbsp;请输入邮箱地址&nbsp;<input type="text" value="这是一个输入文本框"></p>
+	  <p><span class="zi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱地址请按要求格式输入</span></p>
 <br/>
-	<p>请输入密码&nbsp;<input type="password" value="这是一个输入文本框"></p>
-	<p>请重复输入密码&nbsp;<input type="password" value="这是一个输入文本框"></p>
-	<p><span class="zi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码请为6-16位英文数字</span></p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;请输入密码&nbsp;<input type="password" value="这是一个输入文本框"></p>
+	<p>&nbsp;&nbsp;请重复输入密码&nbsp;<input type="password" value="这是一个输入文本框"></p>
+	<p><span class="zi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码请为6-16位英文数字</span></p>
 <br/>
 <br/>
-	<p>性别<input type="radio" name="sex" value="female" checkde>女
+	<p>&nbsp;&nbsp;性别<input type="radio" name="sex" value="female" checkde>女
 	性别<input type="radio" name="sex" value="male">男</p>
 
-	<p>城市<select name="city">
+	<p>&nbsp;&nbsp;城市<select name="city">
 		<option value="bj">北京</option>
 		<option value="zs">中山</option>
 		<option value="gz">广州</option>
 	</select></p>
 
-	<p>爱好<input type="checkbox" name="xz" value="yd">运动
+	<p>&nbsp;&nbsp;爱好<input type="checkbox" name="xz" value="yd">运动
 	<input type="checkbox" name="xz" value="ys">艺术
 	<input type="checkbox" name="xz" value="kx">科学<br/>
 <br/>
 	<span style="vertical-align:top">个人描述:&nbsp;</span><textarea  name="wenben"  cols="70" rows="15"  >这是一个多行输入框，输入您的个人描述			
 	</textarea>
 <br/>	 
-	<input type="submit" value="确认提交" >
-
+	<input class="submit" type="submit" value="确认提交"/ >
+</form>
 	</div>
 	</div>
 
