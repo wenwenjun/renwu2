@@ -1,4 +1,5 @@
 <html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <head>
 <style>
@@ -151,9 +152,9 @@ span.za{color:gray;
 <p>下面是一个表格，我这里给表格加一个border="1"好看出是一个表格。
 <table border="1"  cellspacing="0" width="1100px">
 <tr bgcolor="black">
-	<td bordercolor="LightGrey"><span class="blank">表头</span></th>
-	<td bordercolor="LightGrey"><span class="blank">表头</span></th>
-	<td bordercolor="LightGrey"><span class="blank">表头</span></th>
+	<td bordercolor="LightGrey"><span class="blank">表头</span></td>
+	<td bordercolor="LightGrey"><span class="blank">表头</span></td>
+	<td bordercolor="LightGrey"><span class="blank">表头</span></td>
 </tr>
 <tr>
 	<td bordercolor="LightGrey">表内容单元格</td>
@@ -176,8 +177,8 @@ span.za{color:gray;
 	<td bordercolor="LightGrey"><a href="#">操作</a></td>
 </tr>
 <tr bgcolor="LightGrey">
-	<span class="gray"><td bordercolor="LightGrey">总计</th>
-	<td colspan="2" bordercolor="LightGrey">1000</th></span>
+	<span class="gray"><td bordercolor="LightGrey">总计</td>
+	<td colspan="2" bordercolor="LightGrey">1000</td></span>
 </tr>
 </table>
 </div>
