@@ -56,7 +56,7 @@ span.za{color:gray;
 
 <body>
 <div id="header">
-<h3>导航链接一 &nbsp;&nbsp; 导航链接二&nbsp;&nbsp;导航链接三&nbsp;&nbsp;导航链接四</h3> 
+<h3><a href="#">导航链接一</a> &nbsp;&nbsp; <a href="#">导航链接二</a>&nbsp;&nbsp;<a href="#">导航链接三</a>&nbsp;&nbsp;<a href="#">导航链接四</a></h3> 
 </div>
 
 <div id="contain">
@@ -203,7 +203,7 @@ span.za{color:gray;
 	<span style="vertical-align:top">个人描述:&nbsp;</span><textarea  name="wenben"  cols="70" rows="15"  >这是一个多行输入框，输入您的个人描述			
 	</textarea>
 <br/>	 
-	<input type="submit" value="确认提交" color:blue;>
+	<input type="submit" value="确认提交">
 
 	</div>
 	</div>
